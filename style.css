@@ -1,0 +1,44 @@
+body {
+	background-color: #1b244a;
+}
+
+.scoreboard {
+	display: flex;
+	flex-direction: row;
+	gap: 60px;
+}
+
+.score-box {
+	background-color: #080001;
+	height: 80px;
+	margin-bottom: 20px;
+}
+
+.score-box h2 {
+	color: #f94f6d;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 50px;
+}
+
+h1 {
+	color: white;
+}
+
+li {
+	list-style-type: none;
+}
+
+.scoreboard button {
+	color: #9aabd8;
+	border: 1px solid #9aabd8;
+	border-radius: 5px;
+	height: 30px;
+	background-color: #1b244a;
+	margin-right: 5px;
+}
+
+.increase-point {
+	display: flex;
+	flex-direction: row;
+}
